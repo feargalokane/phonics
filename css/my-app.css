@@ -1,0 +1,92 @@
+/* My CSS */
+
+body {
+	font-family: 'Schoolbell', cursive;	
+	color: #4B384B;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Crafty Girls', cursive;
+	color: #000;
+}
+
+.container {
+	padding: 16px;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.page {
+	background: #f7f7f7 url("../img/hearts-sm.png") top left;
+}
+
+.content-block {
+	background: #fff;
+}
+
+.panel.panel-left {
+	background: #fff;
+	border-right: 1px solid;	
+}
+
+a {
+	color: #4B384B;
+}
+
+/* Alignment */
+.align-left {
+	text-align: left;
+	display: block;
+}
+
+.align-center {
+	text-align: center;
+	display: block;
+	margin: 0 auto 16px;
+}
+
+.text-right {
+	text-align: right;
+	display: block;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+/* Visibility */
+.hidden {
+	display: none;
+	visibility: hidden;
+	height: 0;
+}
+
+/* Images */
+.img-round {
+	border-radius: 50%;
+}
+
+/* Character */
+.character {
+	background: #fff;
+	padding: 16px;
+	margin: 16px auto;
+	display: inline-block;
+	width: 100%;
+	overflow-y: auto;
+	height: calc(100vh - 100px);
+	box-sizing: border-box;
+	box-shadow: 0px 6px 8px rgba(0,0,0,0.125);
+}
+
+.character h2 {
+	margin: 0 0 12px;
+}
+
+.character a {
+	color: #000;
+}
